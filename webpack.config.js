@@ -11,8 +11,7 @@ Encore
     .enableVersioning(false)
     .disableSingleRuntimeChunk()
     .autoProvidejQuery()
-    .enablePostCssLoader()
-
+        
     // copy select2 i18n files
     .copyFiles({
         from: './node_modules/select2/dist/js/i18n/',
