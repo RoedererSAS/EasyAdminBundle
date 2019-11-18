@@ -11,6 +11,7 @@ Encore
     .enableVersioning(false)
     .disableSingleRuntimeChunk()
     .autoProvidejQuery()
+    .enablePostCssLoader()
 
     // copy select2 i18n files
     .copyFiles({

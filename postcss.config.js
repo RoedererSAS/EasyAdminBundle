@@ -1,5 +1,7 @@
 module.exports = {
-  plugins: {
-    'cssnano': {},
-  }
+    plugins: {
+        autoprefixer: {
+            grid: "autoplace"
+        }
+    }
 }
